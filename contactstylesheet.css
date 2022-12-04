@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+
+}
+.main{
+    width: 100%;
+    background: url(lastbg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.dvn{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.dvn h1{
+    width: 250px;
+    color: navajowhite;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    padding-left: 400px;
+    float: left;
+    padding-top: 95px;
+}
+.menu{
+    width: 500px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: brown;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: honeydew;
+    position: relative;
+    padding-top: 200px;
+}
+.content h1{
+    font-family: Times;
+    font-size: 45px;
+    padding-left: 20px;
+    margin-top: -100px;
+    letter-spacing: 2px;
+}
+.icon a{
+    text-decoration: none;
+    color: wheat;
+}
+.icon ion-icon{
+    color: rosybrown;
+    font-size: 35px;
+    padding-left: 200px;
+    padding-top: 30px;
+    transition: 0.3s ease;
+}
+.icon h1{
+    font-family: Times;
+    font-size: 50px;
+    padding-left: 350px;
+    margin-top: 90px;
+    letter-spacing: 30px;
+    color: azure;
+}
+.icon ion-icon:hover{
+    color: white;
+}
